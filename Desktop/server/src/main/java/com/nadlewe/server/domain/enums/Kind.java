@@ -1,0 +1,12 @@
+package com.nadlewe.server.domain.enums;
+
+public enum Kind {
+    // 식사
+    KOREAN, WESTERN, CHINESE, JAPANESE, FASTFOOD, OTHER,
+
+    // 마시기
+    CAFE, BEER_SOJU, MAKGEOLLI, WINE, WHISKEY, COCKTAIL,
+
+    // 활동
+    INDOOR, OUTDOOR, GAME_ENTERTAINMENT, HEALING, ESCAPE_ROOM, CLASS, MOVIE, EXHIBITION, BOOKSTORE
+}
