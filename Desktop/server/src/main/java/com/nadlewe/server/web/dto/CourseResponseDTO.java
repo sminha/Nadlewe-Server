@@ -19,6 +19,7 @@ public class CourseResponseDTO {
         private List<Place> places;
         private int coursePrice;
         private String courseImage;
+        private boolean like;
 
         // for postman test
         @Override
@@ -39,7 +40,7 @@ public class CourseResponseDTO {
         private String placeName;
         private double rate;
         private String menu;
-        private String menuDetail;
+        // private String menuDetail;
         private int placePrice;
         private String placeImage;
 

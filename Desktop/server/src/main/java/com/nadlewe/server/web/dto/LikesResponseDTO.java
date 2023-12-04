@@ -7,8 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class AuthResponseDTO {
+public class LikesResponseDTO {
     private int code;
     private String message;
-    private Long userId;
 }

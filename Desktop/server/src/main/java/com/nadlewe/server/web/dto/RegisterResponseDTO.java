@@ -12,5 +12,5 @@ public class RegisterResponseDTO {
      public RegisterResponseDTO(int code, String message) {
          this.code = code;
          this.message = message;
-        }
+     }
 }

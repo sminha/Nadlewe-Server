@@ -15,6 +15,6 @@ public class MyPageDTO {
     private String name;
     private int age;
     private String gender;
-    private List<PurchaseDTO> purchases;
+    //private List<PurchaseDTO> purchases;
     private List<WishlistDTO> wishlist;
 }

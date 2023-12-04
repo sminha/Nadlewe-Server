@@ -2,7 +2,6 @@ package com.nadlewe.server.service;
 
 import com.nadlewe.server.web.dto.MyPageDTO;
 import com.nadlewe.server.web.dto.PlaceDTO;
-import com.nadlewe.server.web.dto.PurchaseDTO;
 import com.nadlewe.server.web.dto.WishlistDTO;
 import org.springframework.stereotype.Service;
 
@@ -14,14 +13,14 @@ public class MyPageService {
 
     public MyPageDTO getMyPageData(int userId) {
         // Simulating data retrieval from a database
-        List<PurchaseDTO> purchases = createSamplePurchases();
+        // List<PurchaseDTO> purchases = createSamplePurchases();
         List<WishlistDTO> wishlist = createSampleWishlist();
 
-        return new MyPageDTO(userId, "user_image_url", "홍길동", 27, "남자", purchases, wishlist);
+        return new MyPageDTO(userId, "user_image_url", "홍길동", 27, "남자", wishlist);
     }
 
     // for postman test
-    private List<PurchaseDTO> createSamplePurchases() {
+    /*private List<PurchaseDTO> createSamplePurchases() {
         List<PurchaseDTO> purchases = new ArrayList<>();
 
         PlaceDTO place1 = new PlaceDTO("박지후 스시", 5);
@@ -48,7 +47,7 @@ public class MyPageService {
         purchases.add(purchase2);
 
         return purchases;
-    }
+    }*/
 
     // for postman test
     private List<WishlistDTO> createSampleWishlist() {
