@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://umc-5th-fighting-db.ccvc3kglagfx.ap-northeast-2.rds.amazonaws.com:3306/nadlewe
+    url: jdbc:mysql://nadlewe-db.ccvc3kglagfx.ap-northeast-2.rds.amazonaws.com:3306/nadlewe
     username: root
     password: mypassword
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,6 +17,6 @@ spring:
         format_sql: true
         use_sql_comments: true
         hbm2ddl:
-          auto: none
+          auto: create
         generate_ddl: true
         default_batch_fetch_size: 1000
